@@ -117,7 +117,7 @@ function showEmptyCard(section) {
     div.innerHTML = `
            <div class="flex justify-center items-center mx-auto py-17">
             <div>
-                <img class="mx-auto mb-3" src="./jobs.png" alt="">
+                <img class="mx-auto mb-3" src="image.png" alt="">
                 <h5 class="font-semibold text-2xl text-center">No jobs available</h5>
                 <p class="font-medium opacity-45 text-center">Check back soon for new job opportunities</p>
             </div>
@@ -234,14 +234,15 @@ function showRenderReject() {
                         <div>
                             <button class="delete-btn loader  px-3 py-1 rounded font-extrabold text-xl">
                                 <span
-                                    class="p-2 shadow  border-red-700 hover:bg-red-100 hover:border transition-all duration-600 rounded-full cursor-pointer"><i
-                                        class="fa-regular fa-trash-can"></i></span>
+                                    class="p-2 shadow  border-red-700 hover:bg-red-100 hover:border transition-all duration-600 rounded-full cursor-pointer">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </span>
                             </button>
                         </div>
 
                     </div>
 
-                    <div class="flex gap-3 items-center">
+                    <div class="flex gap-4 items-center">
                         <p class="job-location opacity-50">${reject.jobLocation}</p>
 
                     </div>
